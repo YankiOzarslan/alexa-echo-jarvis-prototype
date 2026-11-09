@@ -1,0 +1,8 @@
+version: 3
+agent:
+  authtoken: your_ngrok_authtoken_here
+endpoints:
+  - name: jarvis
+    url: https://your-custom-subdomain.ngrok-free.dev
+    upstream:
+      url: 8000

@@ -1,0 +1,31 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Jarvis AI",
+          "summary": "AI Jarvis assistant powered by LLM",
+          "description": "Personal Jarvis assistant running locally on Mac.",
+          "examplePhrases": [
+            "Alexa open jarvis",
+            "Alexa ask jarvis what is the plan today",
+            "Alexa tell jarvis to mute my mac"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Custom AI assistant endpoint test",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "https://YOUR-TUNNEL-URL/alexa"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

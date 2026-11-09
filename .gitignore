@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Virtual Envs
+.env
+.env.local
+.env.*.local
+venv/
+.venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Secrets & Local Configurations
+ngrok.yml
+*.pem
+*.key
+*.cert
+*.crt
+
+# Binaries & Standalone Tools
+cloudflared
+
+# Personal Learning Notes & Local History
+german_learning_notes.md
+german_progress.json
+github_project_history.json
+*.log
+
+# Video / Audio Rendering Outputs
+Jarvis_Shorts/
+*.mp4
+*.mov
+*.avi
+*.mkv
+assets/music/*.mp3
+assets/music/*.m4a
+assets/music/*.webm
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Third-party sample media
+assets/*.webm
